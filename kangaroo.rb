@@ -6,7 +6,10 @@ class Kangaroo
   end
 
   def print_name
-    puts "@name"
+    puts "Hi #{@name}!"
+  end
+
+  def move
   end
 =begin
   def kangaroo_location
