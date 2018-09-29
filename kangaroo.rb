@@ -1,8 +1,10 @@
 
 
 class Kangaroo
-  def initialize(name)
-    @name = name
+  def initialize(x, y)
+    #@name = name
+    @x = x
+    @y = y
   end
 
   def print_name
