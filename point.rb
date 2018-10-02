@@ -1,5 +1,44 @@
 class Point
+  attr_reader :x, :y
+
+  def initialize(x, y)
+    @x, @y = x, y
+  end
+
+  def +(other)
+    Point.new(@x+other.x, @y+other.y)
+  end
+
+  def x
+    @x
+  end
+
+  def y
+    @y
+  end
 end
+
+p1 = Point.new(4,6)
+p2 = Point.new(3, 3)
+p3 = Point.new(2, 2)
+
+puts p1.x
+
+p4 = p1 + p2 + p3
+
+puts p4.x
+puts p4.y
+=begin
+class Point
+  def initialise
+    @point_x
+    @point_y
+  end
+end
+
+
+
+
 
 no_throws = { :north => 0,
                :east => 0,
@@ -8,3 +47,5 @@ no_throws = { :north => 0,
 }
 
 puts no_throws[:north]
+=end
+

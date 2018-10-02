@@ -1,11 +1,12 @@
 
 class Die
-  #attr_accessor  :no_throws
-  attr_accessor :die_counter_total
-
+  attr_accessor :die_counter
+  attr_accessor :die_side
+  attr_accessor :direction_throws
+  $die_counter = 0
   def initialize()
-    $die_counter = 0
-    @die_number = 0
+
+    @die_side = 0
     @direction_throws = { :north => 0,
                    :east => 0,
                    :south => 0,
@@ -15,17 +16,17 @@ class Die
   end
 
   def roll_die
-    $die_number = rand(1...5)
+    $die_side = rand(1...5)
 
     $die_counter =+ 1
 
-    if $die_number == 1
+    if $die_side == 1
       @direction_throws[:north] += 1
-    elsif $die_number == 2
+    elsif $die_side == 2
       @direction_throws[:east] += 1
-    elsif $die_number == 3
+    elsif $die_side == 3
       @direction_throws[:south] += 1
-    elsif $die_number == 4
+    elsif $die_side == 4
       @direction_throws[:west] += 1
     end
 
@@ -42,6 +43,20 @@ class Die
   #increases total die count
   #$die_counter += 1
 end
+
+die1 = Die.new()
+
+50.times do
+  die1.roll_die
+  puts $die_side
+  puts $die_counter
+end
+
+puts
+puts
+
+die1.print_die_stats
+
 =begin
   def test1
     $die_counter
@@ -49,13 +64,11 @@ end
 
 
 
-die = Die.new()
 
-50.times do
-  die.roll_die
-  puts $die_number
-  puts $die_counter
-end
+
+
+
+
 
 
 puts

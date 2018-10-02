@@ -1,18 +1,19 @@
+require_relative 'point.rb'
 
 
 class Kangaroo
-  def initialize(x, y)
-    #@name = name
-    @x = x
-    @y = y
+  def initialize(name)
+    @name = name
   end
 
   def print_name
     puts "Hi #{@name}!"
   end
 
-  def move
+  def hop
+
   end
+
 =begin
   def kangaroo_location
     end
