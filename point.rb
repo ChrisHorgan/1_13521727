@@ -1,8 +1,9 @@
 class Point
-  attr_reader :x, :y
+  attr_accessor :x, :y
 
-  def initialize(x, y)
-    @x, @y = x, y
+  def initialize(x=0, y=0)
+    @x = x
+    @y = y
   end
 
   def +(other)
@@ -18,6 +19,9 @@ class Point
   end
 end
 
+#point = Point.new
+#puts point.x
+=begin
 p1 = Point.new(4,6)
 p2 = Point.new(3, 3)
 p3 = Point.new(2, 2)

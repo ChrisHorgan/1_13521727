@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/die.rb" beforeDir="false" afterPath="$PROJECT_DIR$/die.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grid.rb" beforeDir="false" afterPath="$PROJECT_DIR$/grid.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kangaroo.rb" beforeDir="false" afterPath="$PROJECT_DIR$/kangaroo.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/main.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/point.rb" beforeDir="false" afterPath="$PROJECT_DIR$/point.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,47 +16,61 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/1_13521727@grid.rcov" NAME="grid Coverage Results" MODIFIED="1538520898520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="1_13521727" />
-    <SUITE FILE_PATH="coverage/1_13521727@kangaroo.rcov" NAME="kangaroo Coverage Results" MODIFIED="1537864130057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="1_13521727" />
-    <SUITE FILE_PATH="coverage/1_13521727@die.rcov" NAME="die Coverage Results" MODIFIED="1538511609682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="1_13521727" />
-    <SUITE FILE_PATH="coverage/1_13521727@main.rcov" NAME="main Coverage Results" MODIFIED="1538347978602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="1_13521727" />
-    <SUITE FILE_PATH="coverage/1_13521727@point.rcov" NAME="point Coverage Results" MODIFIED="1538471784875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="1_13521727" />
+    <SUITE FILE_PATH="coverage/1_13521727@grid.rcov" NAME="grid Coverage Results" MODIFIED="1538589908739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="1_13521727" />
+    <SUITE FILE_PATH="coverage/1_13521727@kangaroo.rcov" NAME="kangaroo Coverage Results" MODIFIED="1538605885907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="1_13521727" />
+    <SUITE FILE_PATH="coverage/1_13521727@die.rcov" NAME="die Coverage Results" MODIFIED="1538605641130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="1_13521727" />
+    <SUITE FILE_PATH="coverage/1_13521727@main.rcov" NAME="main Coverage Results" MODIFIED="1538606003588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="1_13521727" />
+    <SUITE FILE_PATH="coverage/1_13521727@point.rcov" NAME="point Coverage Results" MODIFIED="1538601559018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="1_13521727" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="877646642">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="rb" value="11" />
+          <entry key="rb" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Ruby" value="11" />
+          <entry key="Ruby" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="rb" value="3975" />
+          <entry key="rb" value="4696" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ruby" value="3975" />
+          <entry key="Ruby" value="4696" />
         </counts>
       </usages-collector>
     </session>
@@ -65,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/die.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+            <state relative-caret-position="480">
+              <caret line="32" column="7" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="32" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -74,17 +89,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/point.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kangaroo.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -92,17 +107,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-end-line="1" />
+            <state relative-caret-position="133">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grid.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+            <state relative-caret-position="329">
+              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -124,6 +139,8 @@
       <find>$</find>
       <find>number</find>
       <find>@y</find>
+      <find>die1</find>
+      <find>die_counter</find>
     </findStrings>
     <replaceStrings>
       <replace>direction_throws</replace>
@@ -132,6 +149,8 @@
       <replace>side</replace>
       <replace>@width</replace>
       <replace>@height</replace>
+      <replace>create_grid</replace>
+      <replace>roll_counter</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -140,11 +159,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.rb" />
-        <option value="$PROJECT_DIR$/die.rb" />
-        <option value="$PROJECT_DIR$/point.rb" />
-        <option value="$PROJECT_DIR$/kangaroo.rb" />
         <option value="$PROJECT_DIR$/grid.rb" />
+        <option value="$PROJECT_DIR$/point.rb" />
+        <option value="$PROJECT_DIR$/die.rb" />
+        <option value="$PROJECT_DIR$/main.rb" />
+        <option value="$PROJECT_DIR$/kangaroo.rb" />
       </list>
     </option>
   </component>
@@ -162,7 +181,20 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="1_13521727" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1_13521727" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -181,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.grid">
+  <component name="RunManager" selected="Ruby.main">
     <configuration name="die" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="1_13521727" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -281,11 +313,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Ruby.grid" />
-        <item itemvalue="Ruby.die" />
-        <item itemvalue="Ruby.point" />
         <item itemvalue="Ruby.main" />
         <item itemvalue="Ruby.kangaroo" />
+        <item itemvalue="Ruby.die" />
+        <item itemvalue="Ruby.point" />
+        <item itemvalue="Ruby.grid" />
       </list>
     </recent_temporary>
   </component>
@@ -310,12 +342,13 @@
       <workItem from="1538308381781" duration="3173000" />
       <workItem from="1538422121083" duration="394000" />
       <workItem from="1538468520167" duration="494000" />
-      <workItem from="1538469072581" duration="10588000" />
+      <workItem from="1538469072581" duration="10904000" />
+      <workItem from="1538573181689" duration="8939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33897000" />
+    <option name="totallyTimeSpent" value="43152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -336,7 +369,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32956383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -364,38 +397,38 @@
     <entry file="file://$PROJECT_DIR$/../Lighthouse/light_house.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/die.rb">
+    <entry file="file://$PROJECT_DIR$/grid.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kangaroo.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/point.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="329">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-end-line="1" />
+        <state relative-caret-position="133">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grid.rb">
+    <entry file="file://$PROJECT_DIR$/point.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/die.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kangaroo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

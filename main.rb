@@ -1,22 +1,26 @@
 require_relative 'kangaroo.rb'
-#require_relative 'grid.rb'
+require_relative 'grid.rb'
 require_relative 'die.rb'
 
+grid = Grid.new
+die = Die.new
+skippy = Kangaroo.new
+
+grid.create_grid
+skippy.hop
+
+
+
+#skippy = Kangaroo.new("Skippy")
+#skippy.hop
+=begin
+50.times do
+  die.roll_die
+  end
+
+die.print_die_stats
 #grid = Grid.new(0,0)
 #skippy = Kangaroo.new("Skippy")
-
-x = Integer(gets.chomp)
-y = Integer(gets.chomp)
-
-
-case gets.chomp
-when "yes", "ok"
-  x =
-  puts "ok sure"
-else
-  puts "try again"
-end
-
 
 =begin
 puts "Enter numeric value: "

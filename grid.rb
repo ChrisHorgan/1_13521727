@@ -6,18 +6,7 @@ attr_accessor :width, :height
     @height
   end
 
-=begin
-  def x_value
-    @width
-  end
-
-  def y_value
-    @height
-  end
-=end
-
-  def user_input_x_y
-
+  def create_grid
     # this works with a positive integer, but not negative
     loop do
       puts "Enter the width of the grid (must be an integer)"
@@ -47,17 +36,16 @@ attr_accessor :width, :height
 
   end
 
-  def to
+
 
 
 end
 
-grid = Grid.new
-grid.user_input_x_y
 
 
-puts puts
-puts "The grid is #{grid.width} squares wide and #{grid.height} squares tall"
+
+#puts puts
+#puts "The grid is #{grid.width} squares wide and #{grid.height} squares tall"
 
 
 
