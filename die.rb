@@ -35,6 +35,7 @@ class Die
   end
 
   def print_die_stats
+    puts "Die Statistics:"
     puts "Number of North throws: #{@direction_throws[:north]}"
     puts "Number of East throws: #{@direction_throws[:east]}"
     puts "Number of South throws: #{@direction_throws[:south]}"

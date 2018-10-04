@@ -1,9 +1,9 @@
 class Grid
-attr_accessor :width, :height
+attr_accessor :width_x, :height_y
 
   def initialize
-    @width
-    @height
+    @width_x
+    @height_y
   end
 
   def create_grid
@@ -12,7 +12,7 @@ attr_accessor :width, :height
       puts "Enter the width of the grid (must be an integer)"
       input_x = gets.chomp
       if input_x =~ /^-?[0-9]+$/
-        @width = input_x.to_i
+        @width_x = input_x.to_i
         break
         elsif input_x !=~ /^-?[0-9]+$/
         puts "Please try again."
@@ -23,7 +23,7 @@ attr_accessor :width, :height
       puts "Enter the height of the grid (must be an integer)"
       input_y = gets.chomp
       if input_y =~ /^-?[0-9]+$/
-        @height = input_y.to_i
+        @height_y = input_y.to_i
         break
       elsif input_y !=~ /^-?[0-9]+$/
         puts "Please try again."
@@ -31,21 +31,27 @@ attr_accessor :width, :height
     end
 
     # Take away 1 for the coordinates
-    # @width = @width - 1
-    # @height = @height - 1
+     @width_x -= 1
+     @height_y -= 1
+  end
 
+  def print_grid
+    puts @width_x
+    puts @height_y
   end
 
 
-
-
 end
+
+grid = Grid.new
+grid.create_grid
+grid.print_grid
 
 
 
 
 #puts puts
-#puts "The grid is #{grid.width} squares wide and #{grid.height} squares tall"
+#puts "The grid is #{grid.width_x} squares wide and #{grid.height_y} squares tall"
 
 
 
@@ -56,17 +62,17 @@ end
 
 =begin
     #puts "How many squares wide will the grid be?"
-    #@width = Integer(gets.chomp)
+    #@width_x = Integer(gets.chomp)
     #puts "How many squares tall will the grid be?"
-    #@height = Integer(gets.chomp)
+    #@height_y = Integer(gets.chomp)
 
     puts "How many squares wide will the grid be?:"
     input_x = gets.chomp
 
     if input_x =~ /^-?[0-9]+$/
-      @width = input_x.to_i
-      puts "Valid input: X is #{@width}"
-      @width = @width - 1
+      @width_x = input_x.to_i
+      puts "Valid input: X is #{@width_x}"
+      @width_x = @width_x - 1
     else
       puts "Invalid input, please enter a positive integer."
     end
