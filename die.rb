@@ -1,10 +1,9 @@
-
 class Die
   attr_accessor :roll_counter
   attr_accessor :die_side
   attr_accessor :direction_throws
 
-  def initialize()
+  def initialize
     @roll_counter = 0
     @die_side = 0
     @direction_throws = { :north => 0,
@@ -17,6 +16,7 @@ class Die
   def roll_die
     @die_side = rand(1...5)
     roll_tracking
+    return @die_side
   end
 
   def roll_tracking
@@ -42,11 +42,29 @@ class Die
     puts "Number of West throws: #{@direction_throws[:west]}"
     puts "Number of times the die was rolled: #{@roll_counter}"
   end
-
-  #increases total die count
-  #$roll_counter += 1
 end
 =begin
+die = Die.new
+die.roll_die
+die.roll_die
+die.roll_die
+die.roll_die
+die.roll_die
+die.roll_die
+die.roll_die
+die.roll_die
+
+
+die.print_die_stats
+puts die.roll_die
+puts die.roll_die
+die.print_die_stats
+
+
+
+
+
+
 die1 = Die.new()
 
 50.times do

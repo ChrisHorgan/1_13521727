@@ -9,7 +9,7 @@ attr_accessor :width_x, :height_y
   def create_grid
     # this works with a positive integer, but not negative
     loop do
-      puts "Enter the width of the grid (must be an integer)"
+      puts "Enter the width of the grid (must be an integer):"
       input_x = gets.chomp
       if input_x =~ /^-?[0-9]+$/
         @width_x = input_x.to_i
@@ -20,7 +20,7 @@ attr_accessor :width_x, :height_y
     end
 
     loop do
-      puts "Enter the height of the grid (must be an integer)"
+      puts "Enter the height of the grid (must be an integer):"
       input_y = gets.chomp
       if input_y =~ /^-?[0-9]+$/
         @height_y = input_y.to_i
@@ -31,8 +31,8 @@ attr_accessor :width_x, :height_y
     end
 
     # Take away 1 for the coordinates
-     @width_x -= 1
-     @height_y -= 1
+     @finish_x = @width_x - 1
+     @finish_y = @height_y - 1
   end
 
   def print_grid
@@ -42,11 +42,11 @@ attr_accessor :width_x, :height_y
 
 
 end
-
+=begin
 grid = Grid.new
 grid.create_grid
 grid.print_grid
-
+=end
 
 
 
